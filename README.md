@@ -4,6 +4,8 @@
 
 This project is an Employee Dashboard built using **React.js** and **Firebase**. It allows users to manage employees and their associated categories in real-time. The application leverages Firebase’s Firestore for storing employee data and Firebase Realtime Database for managing and displaying categories assigned to each employee. The dashboard features real-time updates using Firebase snapshots, which ensure the UI is always in sync with the latest data.
 
+The app is deployed as SPA to firebase [here](https://userdata-dashboard-58614.firebaseapp.com/).
+
 ### Tech Stack
 
 - **React.js**: A popular JavaScript library for building user interfaces.
