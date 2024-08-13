@@ -1,0 +1,17 @@
+.list-group-item li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-group-item li button {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s linear;
+  }
+  
+  .list-group-item li:hover button {
+    visibility: visible;
+    opacity: 1;
+  }
+  
